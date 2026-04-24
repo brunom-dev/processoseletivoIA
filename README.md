@@ -33,4 +33,4 @@ Essa técnica reduz a precisão dos pesos matemáticos da rede neural de ponto f
 
 ### 5️⃣ Comentários Adicionais
 
-A principal decisão técnica foi limitar o número de filtros (16 e 32) nas camadas convolucionais e manter a camada densa intermediária em apenas 64 neurônios. Evitar arquiteturas profundas garantiu que o modelo fosse treinado de forma extremamente rápida em CPU, respeitando as restrições de tempo de execução do pipeline de CI/CD (GitHub Actions).
+A principal decisão técnica foi limitar o número de filtros (16 e 32) nas camadas convolucionais e manter a camada densa intermediária em apenas 64 neurônios. Evitar arquiteturas profundas garantiu que o modelo fosse treinado de forma extremamente rápida em CPU, respeitando as restrições de tempo de execução do pipeline de CI/CD (GitHub Actions). 
